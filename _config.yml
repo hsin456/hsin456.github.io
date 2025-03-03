@@ -36,8 +36,8 @@ defaults:
       header:
         overlay_image: "assets/images/header-background.jpg"
         # overlay_filter: "0.5"
-        title: "Huang Hsin Pei"
-        subtitle: "黃馨霈"
+        title: ""
+        subtitle: ""
         align: "center"
       show_excerpts: true
 
