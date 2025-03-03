@@ -1,4 +1,4 @@
-/* /* Gradient header background */
+/* Gradient header background */
 .site-header {
     background: linear-gradient(to right, #005a9c, #2ca58d);
     color: white;
@@ -12,38 +12,4 @@
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
- */
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    margin-top: 50px;
-}
-
-h1 {
-    color: #333;
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-links a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
-    background-color: #0073e6;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.social-links a:hover {
-    background-color: #005bb5;
-}
