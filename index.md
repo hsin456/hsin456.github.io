@@ -1,5 +1,4 @@
----
-title: Home
+
 ---
 
 ## Connect with Me:
