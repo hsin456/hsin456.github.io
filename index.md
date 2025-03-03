@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "Huang Hsin Pei"
-subtitle: "Graduate from NYCU and NCCU"
 author_profile: true
 header:
   overlay_image: "assets/images/header-background.jpg"
@@ -10,7 +9,7 @@ header:
 ---
 
 ## Biography
-I am a graduate from NYCU and NCCU, specializing in financial analysis and AI applications.
+I am graduate from NYCU and NCCU, currently working on assessing value-at-risk research for cryptocurrencies.
 
 ## Connect with Me:
 - [GitHub](https://github.com/hsin456)
