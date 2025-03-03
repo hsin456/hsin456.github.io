@@ -46,9 +46,16 @@ header_pages:
 
 navigation:
   - title: "Home"
-    url: "/"
+    url: /
   - title: "Research"
-    url: "/research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+
 
 # 社交媒體設定
 social:
