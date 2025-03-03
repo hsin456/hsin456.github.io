@@ -1,31 +1,31 @@
+# 網站基本資訊
 title: "Huang Hsin Pei"
-# name: "Huang Hsin Pei 黃馨霈"
 description: "Graduate from NYCU and NCCU."
-# author: "Hsin456"
 theme: minima
 
-# Social Links
-github_username: hsin456
+# 使用 Minimal Mistakes 佈景主題
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# 社交媒體連結
+github_username: "hsin456"
 linkedin: "https://www.linkedin.com/in/hsin456"
 email: "wendy900513@gmail.com"
 
-# 佈景主題
-# remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+# 插件（啟用 SEO、Sitemap 等）
 plugins:
-  - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
-  
+
+# SASS 與 CSS 設定
 sass:
   style: compressed
 include:
   - _sass
 
-
-
-# 設定頁面樣式
+# 設定首頁樣式
 defaults:
   - scope:
       path: ""
@@ -33,27 +33,18 @@ defaults:
       layout: "home"
       author_profile: true
       header:
-        overlay_image: "assets/images/header-background.jpg"  # 上傳你的背景圖
-        overlay_filter: "0.5" # 調整透明度
-        caption: "NYCU"
+        overlay_image: "assets/images/header-background.jpg"  # 確保圖片存在
+        overlay_filter: "0.5" # 調整透明度（0 完全透明，1 不透明）
         title: "Hsin"
         subtitle: "黃馨霈"
         align: "center"
       show_excerpts: true
 
-# 導覽列
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "GitHub"
-    url: "https://github.com/hsin456"
-  - title: "LinkedIn"
-    url: "https://www.linkedin.com/in/hsin456"
-  - title: "Email"
-    url: "mailto:wendy900513@gmail.com"
+# 導覽列（選單）
+header_pages:
+  - index.md
 
-
-# 社交媒體連結
+# 社交媒體設定
 social:
   links:
     - "https://github.com/hsin456"
@@ -63,5 +54,3 @@ social:
 # Markdown 設定
 markdown: kramdown
 highlighter: rouge
-
-
