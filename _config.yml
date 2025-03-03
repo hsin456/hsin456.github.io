@@ -60,8 +60,8 @@ navigation:
 # 個人資訊（側邊欄）
 author:
   name: "Huang Hsin Pei"
-  avatar: "assets/images/profile.jpg"  # 請確保該圖片存在
-  bio: "Graduate from NYCU and NCCU, currently working on assessing value-at-risk research for cryptocurrencies."
+  avatar: "assets/images/profile.jpg"
+  bio: "黃馨霈"
   location: "Taiwan"
   links:
     - label: "GitHub"
