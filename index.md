@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Huang Hsin Pei"
 author_profile: true
 ---
