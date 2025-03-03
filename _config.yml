@@ -44,6 +44,12 @@ defaults:
 header_pages:
   - index.md
 
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Research"
+    url: "/research"
+
 # 社交媒體設定
 social:
   links:
