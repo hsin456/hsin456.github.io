@@ -24,7 +24,6 @@ sass:
   style: compressed
 include:
   - _sass
-  - assets/css
   - _pages
 
 # 設定首頁樣式
@@ -42,9 +41,9 @@ defaults:
         align: "center"
       show_excerpts: true
 
-# 導覽列（選單）
-header_pages:
-  - index.md
+# # 導覽列（選單）
+# header_pages:
+#   - index.md
 
 navigation:
   - title: "📄 Research"
