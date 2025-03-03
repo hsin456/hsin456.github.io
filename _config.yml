@@ -1,14 +1,16 @@
 title: "Huang Hsin Pei"
-name: "Huang Hsin Pei 黃馨霈"
+# name: "Huang Hsin Pei 黃馨霈"
 description: "Graduate from NYCU and NCCU."
-author: "Hsin456"
+# author: "Hsin456"
+theme: minima
+
 # Social Links
 github_username: hsin456
 linkedin: "https://www.linkedin.com/in/hsin456"
 email: "wendy900513@gmail.com"
 
 # 佈景主題
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
