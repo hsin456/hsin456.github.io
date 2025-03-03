@@ -1,0 +1,50 @@
+title: "Hsin456's Personal Page"
+description: "Graduate from NYCU and NCCU."
+author: "Hsin456"
+email: "wendy900513@gmail.com"
+github_username: "hsin456"
+linkedin_url: "https://www.linkedin.com/in/hsin456"
+
+# 使用 minimal-mistakes 佈景主題
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 設定頁面樣式
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "home"
+      author_profile: true
+      header:
+        overlay_image: "assets/images/header-background.jpg"  # 上傳你的背景圖
+        overlay_filter: "0.5" # 調整透明度
+        caption: "NYCU"
+        title: "Hsin"
+        subtitle: "黃馨霈"
+        align: "center"
+      show_excerpts: true
+
+# 導覽列
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "GitHub"
+    url: "https://github.com/hsin456"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/hsin456"
+  - title: "Email"
+    url: "mailto:wendy900513@gmail.com"
+
+# 社交媒體連結
+social:
+  links:
+    - "https://github.com/hsin456"
+    - "https://www.linkedin.com/in/hsin456"
+    - "mailto:wendy900513@gmail.com"
+
+# Markdown 設定
+markdown: kramdown
