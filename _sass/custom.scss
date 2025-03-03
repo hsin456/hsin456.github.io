@@ -1,19 +1,23 @@
-.page {
-  text-align: center;
-}
-
-.page-title {
-  text-align: center;
-}
-
-.page__content {
-  text-align: center;
-}
-
-.site-title {
-  text-align: center;
-}
-
+/* Center all page content */
+.page,
+.page-title,
+.page__content,
+.site-title,
 .site-nav {
-  text-align: center;
+    text-align: center;
+}
+
+/* Gradient header background */
+.site-header {
+    background: linear-gradient(to right, #005a9c, #2ca58d);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style for the title text */
+.site-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
