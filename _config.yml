@@ -1,21 +1,26 @@
-title: "Hsin456's Personal Page"
+title: "Huang Hsin Pei"
+name: "Huang Hsin Pei 黃馨霈"
 description: "Graduate from NYCU and NCCU."
 author: "Hsin456"
+# Social Links
+github_username: hsin456
+linkedin: "https://www.linkedin.com/in/hsin456"
 email: "wendy900513@gmail.com"
-github_username: "hsin456"
-linkedin_url: "https://www.linkedin.com/in/hsin456"
 
 # 佈景主題
-# remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
+theme: minima
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+  
 # include:
 #   - _includes
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 
 # 設定頁面樣式
@@ -45,6 +50,7 @@ nav:
   - title: "Email"
     url: "mailto:wendy900513@gmail.com"
 
+
 # 社交媒體連結
 social:
   links:
@@ -54,3 +60,6 @@ social:
 
 # Markdown 設定
 markdown: kramdown
+highlighter: rouge
+
+
