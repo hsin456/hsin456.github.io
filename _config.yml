@@ -41,12 +41,6 @@ defaults:
         align: "center"
       show_excerpts: true
 
-# 導覽列（選單）
-header_pages:
-  - index.md
-  - _pages/research.md
-  - _pages/map-food-smiles.md
-
 navigation:
   - title: "📄 Research"
     url: /research/
