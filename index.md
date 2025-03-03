@@ -1,7 +1,4 @@
----
-layout: home
----
-# Biography
+
 
 
 ## Connect with Me:
