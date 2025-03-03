@@ -43,19 +43,14 @@ defaults:
 # 導覽列（選單）
 header_pages:
   - index.md
-  - _pages/research.md
 
 navigation:
   - title: "Home"
     url: /
-  - title: "Research"
+  - title: "📄 Research"
     url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "CV"
-    url: /cv/
-  - title: "Contact"
-    url: /contact/
+  - title: "🌍 Map, Food, Smiles"
+    url: /map-food-smiles/
     
 
 # 個人資訊（側邊欄）
