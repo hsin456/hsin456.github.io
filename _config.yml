@@ -33,9 +33,9 @@ defaults:
       layout: "home"
       author_profile: true
       header:
-        overlay_image: "assets/images/header-background.jpg"  # 確保圖片存在
-        overlay_filter: "0.5" # 調整透明度（0 完全透明，1 不透明）
-        title: "Hsin"
+        overlay_image: "assets/images/header-background.jpg"
+        overlay_filter: "0.5"
+        title: "Huang Hsin Pei"
         subtitle: "黃馨霈"
         align: "center"
       show_excerpts: true
@@ -43,6 +43,7 @@ defaults:
 # 導覽列（選單）
 header_pages:
   - index.md
+  - research.md
 
 navigation:
   - title: "Home"
@@ -56,13 +57,23 @@ navigation:
   - title: "Contact"
     url: /contact/
 
-
-# 社交媒體設定
-social:
+# 個人資訊（側邊欄）
+author:
+  name: "Huang Hsin Pei"
+  avatar: "assets/images/profile.jpg"  # 請確保該圖片存在
+  bio: "Graduate from NYCU and NCCU, currently working on assessing value-at-risk research for cryptocurrencies."
+  location: "Taiwan"
   links:
-    - "https://github.com/hsin456"
-    - "https://www.linkedin.com/in/hsin456"
-    - "mailto:wendy900513@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hsin456"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/hsin456"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:wendy900513@gmail.com"
+
 
 # Markdown 設定
 markdown: kramdown
