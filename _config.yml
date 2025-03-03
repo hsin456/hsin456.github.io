@@ -45,7 +45,7 @@ header_pages:
   - index.md
   - _pages/research.md
 
-nav:
+navigation:
   - title: "Home"
     url: /
   - title: "Research"
