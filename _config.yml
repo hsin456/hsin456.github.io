@@ -46,8 +46,6 @@ header_pages:
   - index.md
 
 navigation:
-  - title: "Home"
-    url: /
   - title: "📄 Research"
     url: /research/
   - title: "🌍 Map, Food, Smiles"
