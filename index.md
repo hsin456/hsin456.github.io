@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Huang Hsin Pei"
+title: ""
 author_profile: true
 ---
 
