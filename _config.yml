@@ -43,7 +43,7 @@ defaults:
 # 導覽列（選單）
 header_pages:
   - index.md
-  - _pages/research.md
+  - research.md
 
 navigation:
   - title: "Home"
