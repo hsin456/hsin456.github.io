@@ -5,12 +5,18 @@ email: "wendy900513@gmail.com"
 github_username: "hsin456"
 linkedin_url: "https://www.linkedin.com/in/hsin456"
 
-# 使用 minimal-mistakes 佈景主題
-remote_theme: "mmistakes/minimal-mistakes"
+# 佈景主題
+# remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
+# include:
+#   - _includes
+sass:
+  style: compressed
+
 
 # 設定頁面樣式
 defaults:
