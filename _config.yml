@@ -1,6 +1,6 @@
 # 網站基本資訊
-title: "Huang Hsin Pei"
-description: "Graduate from NYCU and NCCU."
+title: " "
+description: " "
 theme: minima
 
 # 使用 Minimal Mistakes 佈景主題
@@ -36,8 +36,8 @@ defaults:
       header:
         overlay_image: "assets/images/header-background.jpg"
         # overlay_filter: "0.5"
-        title: ""
-        subtitle: ""
+        title: "Huang Hsin Pei"
+        subtitle: "Master's Student at NYCU"
         align: "center"
       show_excerpts: true
 
