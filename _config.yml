@@ -16,10 +16,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   
-# include:
-#   - _includes
-# sass:
-#   style: compressed
+sass:
+  style: compressed
+include:
+  - _sass
+
 
 
 # 設定頁面樣式
