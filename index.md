@@ -11,7 +11,7 @@ I graduated from NCCU and am now a master's student at NYCU, currently working o
 
 ## 📚 Additional Resources
 
-📄 Research(/research/)
+📄 Research(/research/)  
 🌍 Map, Food, Smiles(/map-food-smiles/)
 
 
